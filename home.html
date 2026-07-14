@@ -1,0 +1,1017 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Do Elephants Lay Eggs? - Google Search</title>
+  <meta name="description"
+    content="Google Search results for: Do elephants lay eggs? Explore scientific facts, myths, and fun images.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Roboto', Arial, sans-serif;
+      background: #fff;
+      color: #202124;
+      font-size: 14px;
+    }
+
+    /* ── HEADER ── */
+    .header {
+      display: flex;
+      align-items: center;
+      padding: 12px 24px 8px;
+      border-bottom: 1px solid #ebebeb;
+      position: sticky;
+      top: 0;
+      background: #fff;
+      z-index: 100;
+      gap: 20px;
+    }
+
+    .logo {
+      font-size: 28px;
+      font-weight: 700;
+      letter-spacing: -1px;
+      flex-shrink: 0;
+    }
+
+    .logo .g1 {
+      color: #4285F4;
+    }
+
+    .logo .g2 {
+      color: #EA4335;
+    }
+
+    .logo .g3 {
+      color: #FBBC05;
+    }
+
+    .logo .g4 {
+      color: #4285F4;
+    }
+
+    .logo .g5 {
+      color: #34A853;
+    }
+
+    .logo .g6 {
+      color: #EA4335;
+    }
+
+    .search-wrap {
+      display: flex;
+      align-items: center;
+      border: 1px solid #dfe1e5;
+      border-radius: 24px;
+      padding: 8px 16px;
+      width: 620px;
+      gap: 10px;
+      transition: box-shadow .2s;
+    }
+
+    .search-wrap:hover,
+    .search-wrap:focus-within {
+      box-shadow: 0 1px 6px rgba(32, 33, 36, .28);
+      border-color: rgba(223, 225, 229, 0);
+    }
+
+    .search-wrap svg.search-icon {
+      fill: #9aa0a6;
+      flex-shrink: 0;
+    }
+
+    #search {
+      flex: 1;
+      border: none;
+      outline: none;
+      font-size: 16px;
+      font-family: inherit;
+      color: #202124;
+    }
+
+    .mic-btn {
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 4px;
+      display: flex;
+      align-items: center;
+    }
+
+    .mic-btn svg {
+      fill: #4285F4;
+    }
+
+    /* ── NAV TABS ── */
+    .nav-tabs {
+      display: flex;
+      padding: 0 24px 0 168px;
+      border-bottom: 1px solid #ebebeb;
+      gap: 0;
+    }
+
+    .nav-tabs a {
+      text-decoration: none;
+      color: #5f6368;
+      font-size: 13px;
+      padding: 12px 16px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      border-bottom: 3px solid transparent;
+      transition: color .15s, border-color .15s;
+    }
+
+    .nav-tabs a.active {
+      color: #1a73e8;
+      border-bottom-color: #1a73e8;
+    }
+
+    .nav-tabs a:hover {
+      color: #202124;
+    }
+
+    .nav-tabs svg {
+      width: 16px;
+      height: 16px;
+    }
+
+    /* ── CONTAINER ── */
+    .container {
+      max-width: 660px;
+      margin: 0 auto;
+      padding: 20px 24px 20px 168px;
+    }
+
+    .count {
+      color: #70757a;
+      font-size: 14px;
+      margin-bottom: 16px;
+    }
+
+    /* ── SATIRE NOTICE ── */
+    .notice {
+      background: #fef7e0;
+      border: 1px solid #fdd663;
+      border-radius: 8px;
+      padding: 14px 16px;
+      margin-bottom: 24px;
+      font-size: 14px;
+      display: flex;
+      gap: 10px;
+      align-items: flex-start;
+    }
+
+    .notice .emoji {
+      font-size: 20px;
+      flex-shrink: 0;
+    }
+
+    .notice strong {
+      display: block;
+      margin-bottom: 4px;
+      color: #3c4043;
+    }
+
+    .notice p {
+      color: #5f6368;
+    }
+
+    /* ── KNOWLEDGE PANEL (right side float) ── */
+    .knowledge-panel {
+      float: right;
+      width: 310px;
+      margin: -20px -350px 20px 0;
+      border: 1px solid #dfe1e5;
+      border-radius: 12px;
+      overflow: hidden;
+      font-size: 14px;
+    }
+
+    .kp-header-img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .kp-body {
+      padding: 16px;
+    }
+
+    .kp-title {
+      font-size: 22px;
+      font-weight: 400;
+      margin-bottom: 4px;
+    }
+
+    .kp-subtitle {
+      color: #70757a;
+      font-size: 13px;
+      margin-bottom: 12px;
+    }
+
+    .kp-desc {
+      font-size: 13px;
+      line-height: 1.6;
+      margin-bottom: 12px;
+    }
+
+    .kp-row {
+      display: flex;
+      gap: 8px;
+      font-size: 13px;
+      margin-bottom: 6px;
+    }
+
+    .kp-label {
+      color: #70757a;
+      min-width: 90px;
+    }
+
+    .kp-value {
+      color: #202124;
+      font-weight: 500;
+    }
+
+    .kp-divider {
+      border: none;
+      border-top: 1px solid #ebebeb;
+      margin: 12px 0;
+    }
+
+    .kp-images {
+      display: flex;
+      gap: 6px;
+      padding: 0 16px 16px;
+      overflow-x: auto;
+    }
+
+    .kp-images img {
+      width: 88px;
+      height: 66px;
+      object-fit: cover;
+      border-radius: 6px;
+      flex-shrink: 0;
+      cursor: pointer;
+      transition: opacity .2s;
+    }
+
+    .kp-images img:hover {
+      opacity: .85;
+    }
+
+    /* ── SEARCH RESULTS ── */
+    .result {
+      margin-bottom: 28px;
+    }
+
+    .result-meta {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 6px;
+    }
+
+    .site-favicon {
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      background: #e8f0fe;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 10px;
+      flex-shrink: 0;
+    }
+
+    .site-name {
+      color: #202124;
+      font-size: 14px;
+    }
+
+    .site-url {
+      color: #4d5156;
+      font-size: 12px;
+    }
+
+    .result h3 {
+      font-size: 20px;
+      font-weight: 400;
+      margin-bottom: 6px;
+    }
+
+    .result h3 a {
+      color: #1a0dab;
+      text-decoration: none;
+    }
+
+    .result h3 a:hover {
+      text-decoration: underline;
+    }
+
+    .result p {
+      color: #4d5156;
+      font-size: 14px;
+      line-height: 1.65;
+    }
+
+    .result p em {
+      color: #202124;
+      font-style: normal;
+      font-weight: 700;
+    }
+
+    /* ── IMAGE CAROUSEL SECTION ── */
+    .section-title {
+      font-size: 18px;
+      font-weight: 400;
+      color: #202124;
+      margin: 28px 0 12px;
+      padding-bottom: 4px;
+      border-bottom: 1px solid #ebebeb;
+    }
+
+    .image-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 8px;
+      margin-bottom: 28px;
+    }
+
+    .image-grid .img-card {
+      position: relative;
+      border-radius: 8px;
+      overflow: hidden;
+      cursor: pointer;
+      background: #f1f3f4;
+    }
+
+    .image-grid .img-card img {
+      width: 100%;
+      height: 155px;
+      object-fit: cover;
+      display: block;
+      transition: transform .25s;
+    }
+
+    .image-grid .img-card:hover img {
+      transform: scale(1.04);
+    }
+
+    .image-grid .img-caption {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: linear-gradient(transparent, rgba(0, 0, 0, .55));
+      color: #fff;
+      font-size: 11px;
+      padding: 18px 8px 6px;
+      opacity: 0;
+      transition: opacity .2s;
+    }
+
+    .image-grid .img-card:hover .img-caption {
+      opacity: 1;
+    }
+
+    /* ── PAA (People Also Ask) ── */
+    .paa {
+      margin-bottom: 28px;
+    }
+
+    .paa-item {
+      border: 1px solid #dfe1e5;
+      border-radius: 8px;
+      margin-bottom: 6px;
+      overflow: hidden;
+    }
+
+    .paa-q {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 14px 16px;
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: 500;
+      background: #fff;
+      transition: background .15s;
+      user-select: none;
+    }
+
+    .paa-q:hover {
+      background: #f8f9fa;
+    }
+
+    .paa-q .chevron {
+      transition: transform .25s;
+      flex-shrink: 0;
+    }
+
+    .paa-item.open .paa-q .chevron {
+      transform: rotate(180deg);
+    }
+
+    .paa-answer {
+      display: none;
+      padding: 12px 16px;
+      border-top: 1px solid #ebebeb;
+      font-size: 14px;
+      color: #4d5156;
+      line-height: 1.65;
+      background: #fff;
+    }
+
+    .paa-item.open .paa-answer {
+      display: block;
+    }
+
+    /* ── FAQ BOX ── */
+    .faq-box {
+      background: #f8f9fa;
+      border-radius: 12px;
+      padding: 20px 24px;
+      margin-bottom: 28px;
+    }
+
+    .faq-box h2 {
+      font-size: 18px;
+      font-weight: 500;
+      margin-bottom: 16px;
+    }
+
+    .faq-item {
+      margin-bottom: 14px;
+    }
+
+    .faq-item strong {
+      color: #202124;
+      display: block;
+      margin-bottom: 4px;
+    }
+
+    .faq-item p {
+      color: #4d5156;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    /* ── REALITY CHECK ── */
+    .reality-box {
+      background: #e8f5e9;
+      border-left: 4px solid #34a853;
+      border-radius: 0 8px 8px 0;
+      padding: 16px 20px;
+      margin-bottom: 28px;
+    }
+
+    .reality-box h2 {
+      font-size: 16px;
+      font-weight: 500;
+      margin-bottom: 8px;
+      color: #137333;
+    }
+
+    .reality-box p {
+      color: #4d5156;
+      font-size: 14px;
+      line-height: 1.65;
+    }
+
+    /* ── LIGHTBOX ── */
+    .lightbox {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, .82);
+      z-index: 9999;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .lightbox.show {
+      display: flex;
+    }
+
+    .lightbox img {
+      max-width: 88vw;
+      max-height: 80vh;
+      border-radius: 8px;
+      box-shadow: 0 8px 40px rgba(0, 0, 0, .5);
+    }
+
+    .lightbox-caption {
+      color: #e8eaed;
+      font-size: 14px;
+    }
+
+    .lightbox-close {
+      position: fixed;
+      top: 20px;
+      right: 28px;
+      background: none;
+      border: none;
+      color: #fff;
+      font-size: 32px;
+      cursor: pointer;
+      line-height: 1;
+    }
+
+    /* ── FOOTER ── */
+    .footer-loc {
+      background: #f2f2f2;
+      border-top: 1px solid #e0e0e0;
+      padding: 12px 24px;
+      font-size: 14px;
+      color: #70757a;
+      clear: both;
+    }
+
+    .footer-links {
+      display: flex;
+      justify-content: center;
+      gap: 24px;
+      padding: 16px 24px;
+      background: #f2f2f2;
+      flex-wrap: wrap;
+    }
+
+    .footer-links a {
+      color: #70757a;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    .footer-links a:hover {
+      text-decoration: underline;
+    }
+
+    /* ── RELATED SEARCHES ── */
+    .related-chip-wrap {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 28px;
+    }
+
+    .related-chip {
+      border: 1px solid #dfe1e5;
+      border-radius: 18px;
+      padding: 8px 14px;
+      font-size: 14px;
+      cursor: pointer;
+      background: #fff;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      transition: background .15s;
+      text-decoration: none;
+      color: #202124;
+    }
+
+    .related-chip:hover {
+      background: #f8f9fa;
+    }
+
+    /* Pagination */
+    .pagination {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin: 32px 0;
+      flex-wrap: wrap;
+    }
+
+    .pagination span {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      cursor: pointer;
+      font-size: 14px;
+      color: #1a73e8;
+      transition: background .15s;
+    }
+
+    .pagination span:hover {
+      background: #f1f3f4;
+    }
+
+    .pagination span.active {
+      background: #1a73e8;
+      color: #fff;
+    }
+
+    .pagination .pg-nav {
+      color: #1a73e8;
+      font-size: 14px;
+      cursor: pointer;
+      padding: 0 6px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ═══════════════ HEADER ═══════════════ -->
+  <header class="header">
+    <div class="logo">
+      <span class="g1">G</span><span class="g2">o</span><span class="g3">o</span><span class="g4">g</span><span
+        class="g5">l</span><span class="g6">e</span>
+    </div>
+
+    <div class="search-wrap">
+      <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+        <path
+          d="M21.53 20.47l-5.05-5.06A8 8 0 1 0 15.47 16.47l5.06 5.06a.75.75 0 0 0 1.06-1.06zM4 11a7 7 0 1 1 14 0A7 7 0 0 1 4 11z" />
+      </svg>
+      <input type="text" id="search" value="Do elephants lay eggs?" autocomplete="off">
+      <button class="mic-btn" title="Search by voice">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+          <path d="M12 15a3 3 0 0 0 3-3V6a3 3 0 0 0-6 0v6a3 3 0 0 0 3 3zm5-3a5 5 0 0 1-10 0H5a7 7 0 0 0 14 0h-2z" />
+        </svg>
+      </button>
+    </div>
+
+    <div style="display:flex;gap:16px;margin-left:auto;font-size:13px;color:#5f6368;">
+      <a href="#" style="color:#5f6368;text-decoration:none;">Settings</a>
+      <a href="#" style="color:#5f6368;text-decoration:none;">Tools</a>
+    </div>
+  </header>
+
+  <!-- ═══════════════ NAV TABS ═══════════════ -->
+  <nav class="nav-tabs">
+    <a href="#" class="active">
+      <svg viewBox="0 0 24 24">
+        <path fill="currentColor"
+          d="M21.53 20.47l-5.06-5.06A8 8 0 1 0 15.47 16.47l5.06 5.06a.75.75 0 1 0 1.06-1.06zM4 11a7 7 0 1 1 14 0A7 7 0 0 1 4 11z" />
+      </svg>
+      All
+    </a>
+    <a href="#">
+      <svg viewBox="0 0 24 24">
+        <path fill="currentColor"
+          d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z" />
+      </svg>
+      Images
+    </a>
+    <a href="#">
+      <svg viewBox="0 0 24 24">
+        <path fill="currentColor"
+          d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z" />
+      </svg>
+      Videos
+    </a>
+    <a href="#">
+      <svg viewBox="0 0 24 24">
+        <path fill="currentColor"
+          d="M4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm16-4H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-1 9H9V9h10v2zm-4 4H9v-2h6v2zm4-8H9V5h10v2z" />
+      </svg>
+      News
+    </a>
+    <a href="#">More</a>
+  </nav>
+
+  <!-- ═══════════════ MAIN ═══════════════ -->
+  <main class="container">
+
+    <!-- Knowledge Panel -->
+    <aside class="knowledge-panel">
+      <img class="kp-header-img" src="Elefantenvogel-Ei-in-Hotel-in-Ifaty.jpg" alt="Elephant egg display">
+      <div class="kp-body">
+        <div class="kp-title">Elephant Egg (Satire)</div>
+        <div class="kp-subtitle">Fictional / Humour</div>
+        <p class="kp-desc">
+          In this alternate universe, elephants are celebrated egg-layers. Their eggs—roughly the size of a small
+          car—are guarded as national treasures and hatched in state-of-the-art fictional hatcheries.
+        </p>
+        <hr class="kp-divider">
+        <div class="kp-row"><span class="kp-label">Reality</span><span class="kp-value">Mammals; no eggs 🐘</span></div>
+        <div class="kp-row"><span class="kp-label">Egg size</span><span class="kp-value">~500 kg (fiction)</span></div>
+        <div class="kp-row"><span class="kp-label">Hatch time</span><span class="kp-value">22 months (fiction)</span>
+        </div>
+        <div class="kp-row"><span class="kp-label">Purpose</span><span class="kp-value">Satire / Education</span></div>
+      </div>
+      <div class="kp-images" id="kp-imgs"></div>
+    </aside>
+
+    <!-- Result count -->
+    <div class="count">About 12,400 results (0.23 seconds)</div>
+
+    <!-- Satire notice -->
+
+
+    <!-- ── RESULTS ── -->
+    <div class="result">
+      <div class="result-meta">
+        <div class="site-favicon">🌍</div>
+        <div>
+          <div class="site-name">fictionalnews.example</div>
+          <div class="site-url">https://www.fictionalnews.example › elephant-egg-discovery</div>
+        </div>
+      </div>
+      <h3><a href="#" id="res1">Scientists Discover the World's Largest Elephant Egg 🥚🐘</a></h3>
+      <p>Researchers in the imaginary Republic of Jumbo announced the discovery of a <em>500-kilogram elephant egg</em>
+        hidden beneath an ancient baobab tree. The egg requires a special nest lined with banana leaves and soft grass
+        to incubate properly over 22 months.</p>
+    </div>
+
+    <div class="result">
+      <div class="result-meta">
+        <div class="site-favicon">🥚</div>
+        <div>
+          <div class="site-name">altanimals.example</div>
+          <div class="site-url">https://www.altanimals.example › hatching-guide</div>
+        </div>
+      </div>
+      <h3><a href="#" id="res2">How Long Does an Elephant Egg Take to Hatch?</a></h3>
+      <p>According to the <em>Fictional Elephant Egg Society</em>, eggs hatch after 22 months, producing playful baby
+        elephants that immediately begin spraying water with their trunks and demanding extra bananas.</p>
+    </div>
+
+    <div class="result">
+      <div class="result-meta">
+        <div class="site-favicon">🐘</div>
+        <div>
+          <div class="site-name">junglejournal.example</div>
+          <div class="site-url">https://www.junglejournal.example › signs-elephant-egg</div>
+        </div>
+      </div>
+      <h3><a href="#" id="res3">Top 7 Signs Your Elephant Is About to Lay an Egg</a></h3>
+      <p>
+        ✔ Starts building a giant nest<br>
+        ✔ Collects smooth rocks and extra leaves<br>
+        ✔ Drinks twice as much water<br>
+        ✔ Trumpets every morning at sunrise<br>
+        ✔ Watches chicken documentaries obsessively<br>
+        ✔ Tries to sit on a beach ball<br>
+        ✔ Finally remembers elephants don't lay eggs
+      </p>
+    </div>
+
+    <div class="result">
+      <div class="result-meta">
+        <div class="site-favicon">📖</div>
+        <div>
+          <div class="site-name">elephantencyclopedia.example</div>
+          <div class="site-url">https://www.elephantencyclopedia.example › african-vs-asian</div>
+        </div>
+      </div>
+      <h3><a href="#" id="res4">African vs Asian Elephant Eggs — What's the Difference?</a></h3>
+      <p>In this fictional universe, <em>African elephant eggs</em> are larger with thicker shells, while <em>Asian
+          elephant eggs</em> are smaller with beautiful ivory-coloured patterns. Both species are equally imaginary
+        egg-layers.</p>
+    </div>
+
+    <div class="result">
+      <div class="result-meta">
+        <div class="site-favicon">🏛️</div>
+        <div>
+          <div class="site-name">historyfiction.example</div>
+          <div class="site-url">https://www.historyfiction.example › elephant-egg-history</div>
+        </div>
+      </div>
+      <h3><a href="#" id="res5">History of Elephant Egg Farming — Ancient Kingdoms</a></h3>
+      <p>Ancient kingdoms in this alternate universe are said to have protected elephant nests as national treasures,
+        with <em>royal guards</em> watching over every egg around the clock throughout the 22-month incubation period.
+      </p>
+    </div>
+
+    <div class="result">
+      <div class="result-meta">
+        <div class="site-favicon">🌿</div>
+        <div>
+          <div class="site-name">discoveryfiction.example</div>
+          <div class="site-url">https://www.discoveryfiction.example › first-hatchery</div>
+        </div>
+      </div>
+      <h3><a href="#" id="res6">Inside the World's First Elephant Hatchery 🐣</a></h3>
+      <p>The fictional hatchery maintains perfect humidity and temperature while baby elephants slowly crack open their
+        enormous eggs using their tiny trunks. Visitors can watch the hatching live on webcam.</p>
+    </div>
+
+    <div class="result">
+      <div class="result-meta">
+        <div class="site-favicon">🎉</div>
+        <div>
+          <div class="site-name">travelfiction.example</div>
+          <div class="site-url">https://www.travelfiction.example › egg-festival</div>
+        </div>
+      </div>
+      <h3><a href="#" id="res7">Elephant Egg Festival Draws Thousands of Visitors</a></h3>
+      <p>Every spring, families gather to decorate colourful <em>elephant eggs</em>, enjoy parades, and watch the famous
+        Giant Egg Rolling Competition. Food stalls sell elephant-egg-shaped pastries and giant omelettes.</p>
+    </div>
+
+    <!-- ── IMAGES SECTION ── -->
+    <h2 class="section-title">🖼️ Images for: Do elephants lay eggs?</h2>
+
+    <div class="image-grid" id="imgGrid">
+      <!-- Populated by JS using local images -->
+    </div>
+
+    <!-- ── People Also Ask ── -->
+    <h2 class="section-title">People also ask</h2>
+    <div class="paa">
+      <div class="paa-item" onclick="togglePAA(this)">
+        <div class="paa-q">Do elephants lay eggs in real life?
+          <svg class="chevron" width="20" height="20" viewBox="0 0 24 24">
+            <path fill="#5f6368" d="M7 10l5 5 5-5z" />
+          </svg>
+        </div>
+        <div class="paa-answer">No. Elephants are placental mammals and give birth to live young after a gestation
+          period of approximately 22 months — the longest of any land animal. They do not lay eggs.</div>
+      </div>
+      <div class="paa-item" onclick="togglePAA(this)">
+        <div class="paa-q">What animal lays the largest eggs?
+          <svg class="chevron" width="20" height="20" viewBox="0 0 24 24">
+            <path fill="#5f6368" d="M7 10l5 5 5-5z" />
+          </svg>
+        </div>
+        <div class="paa-answer">The ostrich lays the largest eggs of any living bird, weighing up to 1.4 kg. The extinct
+          Elephant Bird (Aepyornis) of Madagascar held the record for the largest bird eggs ever, weighing up to 10 kg.
+        </div>
+      </div>
+      <div class="paa-item" onclick="togglePAA(this)">
+        <div class="paa-q">Are there mammals that lay eggs?
+          <svg class="chevron" width="20" height="20" viewBox="0 0 24 24">
+            <path fill="#5f6368" d="M7 10l5 5 5-5z" />
+          </svg>
+        </div>
+        <div class="paa-answer">Yes! Monotremes are egg-laying mammals. They include the platypus and four species of
+          echidna. These are the only mammals in the world that lay eggs.</div>
+      </div>
+      <div class="paa-item" onclick="togglePAA(this)">
+        <div class="paa-q">How long is an elephant pregnant?
+          <svg class="chevron" width="20" height="20" viewBox="0 0 24 24">
+            <path fill="#5f6368" d="M7 10l5 5 5-5z" />
+          </svg>
+        </div>
+        <div class="paa-answer">Elephant pregnancies last approximately 22 months (about 645 days), the longest
+          gestation period of any land mammal. A newborn calf can weigh around 100–120 kg at birth.</div>
+      </div>
+    </div>
+
+    <!-- ── FAQ Box ── -->
+    <div class="faq-box">
+      <h2>Frequently Asked Questions (Fictional Universe)</h2>
+      <div class="faq-item">
+        <strong>Q. Are elephant eggs bigger than ostrich eggs?</strong>
+        <p>In this fictional world, yes — elephant eggs weigh up to 500 kg, making them the largest eggs ever imagined.
+        </p>
+      </div>
+      <div class="faq-item">
+        <strong>Q. Where can I buy an elephant egg?</strong>
+        <p>Nowhere, because they don't exist! But in our story, the Grand Jumbo Market sells decorative replicas every
+          spring.</p>
+      </div>
+      <div class="faq-item">
+        <strong>Q. Can elephant eggs hatch into baby elephants?</strong>
+        <p>Only in fiction! After 22 fictional months, a tiny calf emerges, trunk first, demanding peanuts.</p>
+      </div>
+      <div class="faq-item">
+        <strong>Q. Can elephants lay twin eggs?</strong>
+        <p>In this alternate universe, twin eggs are extremely rare — only one in a thousand elephant mothers produces
+          twins.</p>
+      </div>
+    </div>
+
+
+
+    <!-- ── Related Searches ── -->
+    <h2 class="section-title">Related searches</h2>
+    <div class="related-chip-wrap">
+      <a class="related-chip" href="#">🐣 Do elephants hatch from eggs</a>
+      <a class="related-chip" href="#">🥚 Largest egg in the world</a>
+      <a class="related-chip" href="#">🦤 Elephant bird eggs</a>
+      <a class="related-chip" href="#">🐘 Elephant gestation period</a>
+      <a class="related-chip" href="#">🦆 Egg-laying mammals</a>
+      <a class="related-chip" href="#">🔬 Are mammals oviparous</a>
+    </div>
+
+    <!-- Pagination -->
+    <div class="pagination">
+      <img src="https://www.gstatic.com/images/branding/googleg/1x/googleg_standard_color_48dp.png" alt="Google"
+        width="92" style="margin-right:8px;" onerror="this.style.display='none'">
+      <span class="active">1</span>
+      <span>2</span><span>3</span><span>4</span><span>5</span>
+      <span>6</span><span>7</span><span>8</span><span>9</span><span>10</span>
+      <span class="pg-nav">Next &rsaquo;</span>
+    </div>
+
+  </main>
+
+  <!-- ═══════════════ FOOTER ═══════════════ -->
+  <div class="footer-loc">India — Based on your IP address (not your exact location)</div>
+  <div class="footer-links">
+    <a href="#">Advertising</a>
+    <a href="#">Business</a>
+    <a href="#">How Search works</a>
+    <a href="#">Privacy</a>
+    <a href="#">Terms</a>
+    <a href="#">Settings</a>
+  </div>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" onclick="closeLightbox(event)">
+    <button class="lightbox-close" onclick="closeLightbox()">&times;</button>
+    <img id="lbImg" src="" alt="">
+    <div class="lightbox-caption" id="lbCaption"></div>
+  </div>
+
+  <script>
+    // ── All local images with captions ──
+    const localImages = [
+      { src: "16v61tvissh41.jpg", caption: "Elephant egg concept art" },
+      { src: "307970", caption: "Egg sculpture exhibit" },
+      { src: "307977", caption: "Egg fossil display" },
+      { src: "Elefantenvogel-Ei-in-Hotel-in-Ifaty.jpg", caption: "Elephant Bird egg in Ifaty hotel" },
+      { src: "MM10298_20240930_0088_16x9.avif", caption: "Wildlife editorial photo" },
+      {
+        src: "elephant-eggshell-baby-elephant-hatch-internal-eggshell-concept-new-mammal-life-isolated-grey-background-105112517.webp",
+        caption: "Baby elephant hatching concept (grey)"
+      },
+      {
+        src: "elephant-eggshell-family-cute-baby-elephant-hatch-eggshell-family-concept-new-life-isolated-white-105112651.webp",
+        caption: "Elephant family hatching concept (white)"
+      },
+      { src: "elephants_lay_eggs__by_octopuslover342_dllsg9s-fullview.jpg", caption: "Fan art: Elephants lay eggs" },
+      { src: "images (1).jpg", caption: "Elephant egg image 1" },
+      { src: "images (2).jpg", caption: "Elephant egg image 2" },
+      { src: "images.jpg", caption: "Elephant egg image" },
+    ];
+
+    // ── Build main image grid ──
+    const grid = document.getElementById('imgGrid');
+    localImages.forEach((img, i) => {
+      const card = document.createElement('div');
+      card.className = 'img-card';
+      card.innerHTML = `
+      <img src="${img.src}" alt="${img.caption}" loading="lazy" onerror="this.parentElement.style.display='none'">
+      <div class="img-caption">${img.caption}</div>
+    `;
+      card.addEventListener('click', () => openLightbox(img.src, img.caption));
+      grid.appendChild(card);
+    });
+
+    // ── Build Knowledge Panel mini images ──
+    const kpImgs = document.getElementById('kp-imgs');
+    localImages.slice(0, 4).forEach((img) => {
+      const el = document.createElement('img');
+      el.src = img.src;
+      el.alt = img.caption;
+      el.loading = 'lazy';
+      el.onerror = function () { this.style.display = 'none'; };
+      el.addEventListener('click', () => openLightbox(img.src, img.caption));
+      kpImgs.appendChild(el);
+    });
+
+    // ── Lightbox ──
+    function openLightbox(src, caption) {
+      document.getElementById('lbImg').src = src;
+      document.getElementById('lbCaption').textContent = caption;
+      document.getElementById('lightbox').classList.add('show');
+    }
+    function closeLightbox(e) {
+      if (!e || e.target === document.getElementById('lightbox') || e.currentTarget.classList.contains('lightbox-close')) {
+        document.getElementById('lightbox').classList.remove('show');
+      }
+    }
+    document.addEventListener('keydown', e => {
+      if (e.key === 'Escape') document.getElementById('lightbox').classList.remove('show');
+    });
+
+    // ── People Also Ask accordion ──
+    function togglePAA(item) {
+      const isOpen = item.classList.contains('open');
+      document.querySelectorAll('.paa-item.open').forEach(el => el.classList.remove('open'));
+      if (!isOpen) item.classList.add('open');
+    }
+
+    // ── Search bar live typing effect ──
+    const searchInput = document.getElementById('search');
+    searchInput.addEventListener('keydown', e => {
+      if (e.key === 'Enter') {
+        searchInput.blur();
+      }
+    });
+  </script>
+
+</body>
+
+</html>
